@@ -18,7 +18,7 @@ const DynamicImageMap = () => {
       alt: "#2 Innstillinger",
       areas: [
         { coords: [1219, 248, 1828, 359], nextImageIndex: 6, alt: "Kanaler" },
-        { coords: [1217, 368, 1793, 474], nextImageIndex: 0, alt: "Språk og tekstvalg" },
+        { coords: [1217, 368, 1793, 474], nextImageIndex: 11, alt: "Språk og tekstvalg" },
         { coords: [1219, 487, 1784, 584], nextImageIndex: 0, alt: "Film og serier" },
         { coords: [1219, 580, 1701, 678], nextImageIndex: 2, alt: "Avanserte Innstillinger" },
         { coords: [1219, 765, 1609, 843], nextImageIndex: 0, alt: "Dekoder" },
@@ -119,7 +119,7 @@ const DynamicImageMap = () => {
       },
       {
         src: "/bilder/kanaler/skjul-tv-kanaler2.jpg",
-        alt: "#8 sorter-kanaler",
+        alt: "#10 skjul kanaler",
         areas: [
           { coords: [1232, 160, 1592, 250], nextImageIndex: 6, alt: "Tilbake" },
           { coords: [1232, 260, 1592, 350], nextImageIndex: 6, alt: "Tilbake" },
@@ -129,12 +129,81 @@ const DynamicImageMap = () => {
         originalWidth: 1920,
         originalHeight: 1080,
       },
+      {
+        src: "/bilder/sprak/sprak_og_tekstvalg.jpg",
+        alt: "#11 språk og tekstvalg",
+        areas: [
+            { coords: [1232, 160, 1592, 250], nextImageIndex: 12, alt: "Sprak i meny" },
+            { coords: [1232, 260, 1592, 350], nextImageIndex: 13, alt: "Foretrukket sprak" },
+            { coords: [1232, 360, 1592, 450], nextImageIndex: 14, alt: "Undertekst sprak" },
+            { coords: [1232, 460, 1592, 550], nextImageIndex: 15, alt: "Undertekster" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+      {
+        src: "/bilder/sprak/sprak.jpg",
+        alt: "#12 Språk",
+        areas: [
+          { coords: [1232, 160, 1592, 250], nextImageIndex: 11, alt: "tilbake" },
+          { coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
+          { coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+          { coords: [1232, 460, 1592, 550], nextImageIndex: 11, alt: "tilbake" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/sprak/faretrukketsprak.jpg",
+        alt: "#13 foretrukket språk",
+        areas: [
+          { coords: [1232, 160, 1592, 250], nextImageIndex: 11, alt: "tilbake" },
+          { coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
+          { coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+          { coords: [1232, 460, 1592, 550], nextImageIndex: 11, alt: "tilbake" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/sprak/undertekstsprak.jpg",
+        alt: "#14 undertekst språk",
+        areas: [
+          { coords: [1232, 160, 1592, 250], nextImageIndex: 11, alt: "tilbake" },
+          { coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
+          { coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+          { coords: [1232, 460, 1592, 550], nextImageIndex: 11, alt: "tilbake" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/sprak/undertekster.jpg",
+        alt: "#15 undertekster",
+        areas: [
+          { coords: [1232, 160, 1592, 250], nextImageIndex: 11, alt: "tilbake" },
+          { coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
+          { coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+          { coords: [1232, 460, 1592, 550], nextImageIndex: 11, alt: "tilbake" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+      
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [imageSize, setImageSize] = useState({ width: 1920, height: 1080 });
   const [history, setHistory] = useState<number[]>([]);
-
+  
 
   useEffect(() => {
     const updateImageSize = () => {
@@ -176,6 +245,12 @@ const DynamicImageMap = () => {
       setHistory((prevHistory) => prevHistory.slice(0, -1)); // Remove the last entry
       setCurrentImageIndex(prevIndex);
     }
+  };
+
+  const handleHomeClick = () => {
+    // Clear history and navigate to the first image
+    setHistory([]);
+    setCurrentImageIndex(0);
   };
 
   const currentImage = imageMapData[currentImageIndex];
@@ -224,6 +299,27 @@ const DynamicImageMap = () => {
             }}
           >
             Back
+          </button>
+        )}
+                {/* Home Button */}
+                {currentImageIndex !== 0 && (
+          <button
+            onClick={handleHomeClick}
+            style={{
+              position: "absolute",
+              top: "10px",
+              left: "10px",
+              padding: "10px 20px",
+              fontSize: "20px",
+              backgroundColor: "rgba(0, 0, 0, 0.6)",
+              color: "white",
+              border: "none",
+              borderRadius: "5px",
+              cursor: "pointer",
+              zIndex: 10,
+            }}
+          >
+            Hjem
           </button>
         )}
       </div>
