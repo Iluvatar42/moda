@@ -183,6 +183,7 @@ const DynamicImageMap = () => {
   return (
     <div>
       <h1>Dynamic Image Map</h1>
+      <div style={{ position: "relative", display: "inline-block" }}>
       <img
         id="responsive-image"
         src={currentImage.src}
@@ -203,27 +204,29 @@ const DynamicImageMap = () => {
           />
         ))}
       </map>
+
         {/* Back Button */}
         {history.length > 0 && (
-            <button
-                onClick={handleBackClick}
-                style={{
-                position: "absolute",
-                top: "10%",
-                left: "69%",
-                transform: "translate(-50%, -50%)",
-                padding: "10px 20px",
-                fontSize: "26px",
-                backgroundColor: "rgba(255, 0, 0, 0.6)",
-                color: "white",
-                border: "none",
-                borderRadius: "5px",
-                cursor: "pointer",
-          }}
-        >
-          TILBAKE
-        </button>
-      )}
+          <button
+            onClick={handleBackClick}
+            style={{
+              position: "absolute",
+              top: "10px",
+              right: "10px",
+              padding: "10px 20px",
+              fontSize: "20px",
+              backgroundColor: "rgba(255, 0, 0, 0.6)",
+              color: "white",
+              border: "none",
+              borderRadius: "5px",
+              cursor: "pointer",
+              zIndex: 10,
+            }}
+          >
+            Back
+          </button>
+        )}
+      </div>
     </div>
   );
 };
