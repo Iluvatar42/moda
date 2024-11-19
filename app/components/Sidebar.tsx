@@ -8,8 +8,8 @@ const Sidebar = () => {
     <div className="sidebar">
       <Image src="/bilder/Eidsiva-Hvit.png" alt="Eidsiva Logo" width={150} height={50} />
       <h3>Utstyr</h3>
-      <Link href="../model-a">Hjem</Link>
-      <Link href="../model-a/hjem">Model A</Link>
+      <Link href="../">Modell-A</Link>
+      <Link href="../mk">MK</Link>
     </div>
   );
 };
