@@ -19,9 +19,9 @@ const DynamicImageMap = () => {
       areas: [
         { coords: [1219, 248, 1828, 359], nextImageIndex: 6, alt: "Kanaler" },
         { coords: [1217, 368, 1793, 474], nextImageIndex: 11, alt: "Språk og tekstvalg" },
-        { coords: [1219, 487, 1784, 584], nextImageIndex: 0, alt: "Film og serier" },
+        { coords: [1219, 487, 1784, 584], nextImageIndex: 16, alt: "Film og serier" },
         { coords: [1219, 580, 1701, 678], nextImageIndex: 2, alt: "Avanserte Innstillinger" },
-        { coords: [1219, 765, 1609, 843], nextImageIndex: 0, alt: "Dekoder" },
+        { coords: [1219, 765, 1609, 843], nextImageIndex: 30, alt: "Enhetsinnstillinger" },
       ],
       originalWidth: 1920,
       originalHeight: 1080,
@@ -30,12 +30,12 @@ const DynamicImageMap = () => {
       src: "/bilder/avansert.jpg",
       alt: "#3 Avansert",
       areas: [
-        { coords: [1232, 160, 1592, 250], nextImageIndex: 0, alt: "Dekoder" },
-        { coords: [1232, 260, 1592, 350], nextImageIndex: 0, alt: "Videokvalitet" },
-        { coords: [1232, 360, 1592, 450], nextImageIndex: 0, alt: "Opptak" },
-        { coords: [1232, 460, 1592, 550], nextImageIndex: 0, alt: "Fjernkontroll" },
-        { coords: [1232, 560, 1592, 650], nextImageIndex: 0, alt: "Historikk" },
-        { coords: [1232, 660, 1592, 750], nextImageIndex: 3, alt: "Debug" },
+        { coords: [1232, 160, 1592, 250], nextImageIndex: 19, alt: "Dekoder" },
+        { coords: [1232, 260, 1592, 350], nextImageIndex: 20, alt: "Videokvalitet" },
+        { coords: [1232, 360, 1592, 450], nextImageIndex: 21, alt: "Opptak" },
+        { coords: [1232, 460, 1592, 550], nextImageIndex: 24, alt: "Fjernkontroll" },
+        { coords: [1232, 560, 1592, 650], nextImageIndex: 27, alt: "Historikk" },
+        { coords: [1232, 660, 1592, 750], nextImageIndex: 28, alt: "Debug" },
       ],
       originalWidth: 1920,
       originalHeight: 1080,
@@ -197,7 +197,180 @@ const DynamicImageMap = () => {
         originalWidth: 1920,
         originalHeight: 1080,
       },
+
+      {
+        src: "/bilder/Film_og_serier/film_og_serier.jpg",
+        alt: "#16 Film og serier",
+        areas: [
+          { coords: [1232, 160, 1592, 250], nextImageIndex: 17, alt: "Foreldre kontroll ping" },
+          //{ coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
+          //{ coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/Film_og_serier/foreldrekontroll1.jpg",
+        alt: "#17 Foreldre kontroll pin",
+        areas: [
+            { coords: [684, 606, 1240, 695], nextImageIndex: 18, alt: "Pin" },
+            { coords: [684, 695, 1240, 770], nextImageIndex: 16, alt: "Avbryt" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
       
+      {
+        src: "/bilder/Film_og_serier/foreldrekontroll2.jpg",
+        alt: "#18 Foreldre kontroll",
+        areas: [
+          //{ coords: [1232, 160, 1592, 250], nextImageIndex: 17, alt: "Foreldre kontroll" },
+          //{ coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
+          //{ coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/Avanserte_innstillinger/dekoder.jpg",
+        alt: "#19 Dekoder",
+        areas: [
+         //   { coords: [684, 606, 1240, 695], nextImageIndex: 18, alt: "Pin" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+      {
+      src: "/bilder/Avanserte_innstillinger/videokvalitet.jpg",
+      alt: "#20 Video kvalitet",
+      areas: [
+        //{ coords: [1232, 160, 1592, 250], nextImageIndex: 17, alt: "Foreldre kontroll" },
+        //{ coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
+        //{ coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+      ],
+      originalWidth: 1920,
+      originalHeight: 1080,
+    },
+
+    {
+        src: "/bilder/Avanserte_innstillinger/opptak.jpg",
+        alt: "#21 Opptak",
+        areas: [
+          { coords: [1232, 260, 1592, 350], nextImageIndex: 22, alt: "Tidsbuffer før" },
+          { coords: [1232, 360, 1592, 450], nextImageIndex: 23, alt: "Tidsbuffer etter" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/Avanserte_innstillinger/tidsbuffer_for.jpg",
+        alt: "#22 Tidsbuffer før",
+        areas: [
+          //{ coords: [1232, 160, 1592, 250], nextImageIndex: 17, alt: "Tidsbuffer før" },
+          //{ coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "Tidsbuffer etter" },
+          //{ coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/Avanserte_innstillinger/tidsbuffer_etter.jpg",
+        alt: "#23 Tidsbuffer etter",
+        areas: [
+          //{ coords: [1232, 160, 1592, 250], nextImageIndex: 17, alt: "Tidsbuffer før" },
+          //{ coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "Tidsbuffer etter" },
+          //{ coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/Avanserte_innstillinger/fjernkontroll.jpg",
+        alt: "#24 Fjernkontroll",
+        areas: [
+          { coords: [0, 0, 1820, 980], nextImageIndex: 25, alt: "Valg av TV" },
+          //{ coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "Tidsbuffer etter" },
+          //{ coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+      
+
+      {
+        src: "/bilder/Avanserte_innstillinger/fjernkontroll_connecting.jpg",
+        alt: "#25 Fjernkontroll loading.",
+        areas: [
+           { coords: [0, 0, 1820, 980], nextImageIndex: 26, alt: "Fjernkontroll connecting"},
+          //{ coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "Tidsbuffer etter" },
+          //{ coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/Avanserte_innstillinger/fjernkontroll2.jpg",
+        alt: "#26 Samsung paring",
+        areas: [
+          //{ coords: [0, 0, 1820, 980], nextImageIndex: 25, alt: "Tidsbuffer før" },
+          //{ coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "Tidsbuffer etter" },
+          //{ coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+      
+      {
+        src: "/bilder/Avanserte_innstillinger/historikk.jpg",
+        alt: "#27 Opptak",
+        areas: [
+        //  { coords: [1232, 260, 1592, 350], nextImageIndex: 22, alt: "Tidsbuffer før" },
+        //  { coords: [1232, 360, 1592, 450], nextImageIndex: 23, alt: "Tidsbuffer etter" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/Avanserte_innstillinger/debug.jpg",
+        alt: "#28 debug",
+        areas: [
+          //{ coords: [1209, 306, 1910, 402], nextImageIndex: 22, alt: "Tidsbuffer før" },
+          { coords: [1209, 406, 1910, 502], nextImageIndex: 29, alt: "stats på" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/Avanserte_innstillinger/statspa.jpg",
+        alt: "#29 debug stats på",
+        areas: [
+          //{ coords: [1209, 306, 1910, 402], nextImageIndex: 22, alt: "Tidsbuffer før" },
+          { coords: [1209, 406, 1910, 502], nextImageIndex: 28, alt: "stats av" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger/enhetsinnstillinger.jpg",
+        alt: "#30 Enhetsinnstillinger",
+        areas: [
+          //{ coords: [1209, 306, 1910, 402], nextImageIndex: 22, alt: "Tidsbuffer før" },
+          { coords: [1209, 406, 1910, 502], nextImageIndex: 29, alt: "stats på" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
