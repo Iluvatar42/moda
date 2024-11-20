@@ -955,10 +955,10 @@ const DynamicImageMap = () => {
             style={{
               position: "absolute",
               top: "10px",
-              left: "10px",
+              right: "530px",
               padding: "10px 20px",
               fontSize: "20px",
-              backgroundColor: "rgba(0, 0, 0, 0.6)",
+              backgroundColor: "rgba(0, 0, 255, 0.6)",
               color: "white",
               border: "none",
               borderRadius: "5px",
