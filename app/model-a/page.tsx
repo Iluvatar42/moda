@@ -643,7 +643,7 @@ const DynamicImageMap = () => {
       },
 
       {
-        src: "/bilder/enhetsinnstillinger2/hdmi.jpg",
+        src: "/bilder/enhetsinnstillinger2/HDMI.jpg",
         alt: "#56 hdmi",
         areas: [
           { coords: [1200, 186, 1870, 278], nextImageIndex: 57, alt: "" },
