@@ -367,7 +367,7 @@ const DynamicImageMap = () => {
           { coords: [1200, 636, 1917, 758], nextImageIndex: 33, alt: "Kontoer og pålogging" },
           { coords: [1200, 736, 1917, 858], nextImageIndex: 35, alt: "Apper" },
           { coords: [1200, 836, 1917, 958], nextImageIndex: 40, alt: "Enhetsinnstillinger2" },
-          { coords: [1200, 936, 1917, 1058], nextImageIndex: 30, alt: "Fjernkontroll og tilbehør" },
+          { coords: [1200, 936, 1917, 1058], nextImageIndex: 73, alt: "Fjernkontroll og tilbehør" },
         ],
         originalWidth: 1920,
         originalHeight: 1080,
@@ -466,15 +466,15 @@ const DynamicImageMap = () => {
       src: "/bilder/enhetsinnstillinger2/enhetsinnstillinger2.jpg",
       alt: "#40 enhetsinnstillinger2",
       areas: [
-        { coords: [1200, 183, 1917, 275], nextImageIndex: 40, alt: "Info" },
-        { coords: [1200, 283, 1917, 375], nextImageIndex: 40, alt: "Dato og klokkeslett" },
-        { coords: [1200, 383, 1917, 475], nextImageIndex: 40, alt: "Språk" },
-        { coords: [1200, 483, 1917, 575], nextImageIndex: 40, alt: "Tastatir" },
-        { coords: [1200, 583, 1917, 675], nextImageIndex: 40, alt: "Bluetooth" },
-        { coords: [1200, 683, 1917, 775], nextImageIndex: 40, alt: "Lyd" },
-        { coords: [1200, 783, 1917, 875], nextImageIndex: 40, alt: "Volum" },
-        { coords: [1200, 883, 1917, 975], nextImageIndex: 40, alt: "Lagring" },
-        { coords: [1200, 983, 1917, 1075], nextImageIndex: 40, alt: "Google Assistant" },
+        { coords: [1200, 186, 1870, 278], nextImageIndex: 42, alt: "Info" },
+        { coords: [1200, 286, 1870, 378], nextImageIndex: 43, alt: "Dato og klokkeslett" },
+        { coords: [1200, 386, 1870, 478], nextImageIndex: 44, alt: "Språk" },
+        { coords: [1200, 486, 1870, 578], nextImageIndex: 45, alt: "Tastatir" },
+        { coords: [1200, 586, 1870, 678], nextImageIndex: 46, alt: "Bluetooth" },
+        { coords: [1200, 686, 1870, 778], nextImageIndex: 47, alt: "Lyd" },
+        { coords: [1200, 786, 1870, 878], nextImageIndex: 50, alt: "Volum" },
+        { coords: [1200, 886, 1870, 978], nextImageIndex: 51, alt: "Lagring" },
+        { coords: [1200, 986, 1870, 1078], nextImageIndex: 53, alt: "Google Assistant" },
 
       ],
       originalWidth: 1920,
@@ -485,15 +485,341 @@ const DynamicImageMap = () => {
         src: "/bilder/enhetsinnstillinger2/enhetsinnstillinger3.jpg",
         alt: "#41 enhetsinnstillinger3",
         areas: [
-            { coords: [1200, 183, 1917, 275], nextImageIndex: 40, alt: "Info" },
-            { coords: [1200, 283, 1917, 375], nextImageIndex: 40, alt: "Dato og klokkeslett" },
-            { coords: [1200, 383, 1917, 475], nextImageIndex: 40, alt: "Språk" },
-            { coords: [1200, 483, 1917, 575], nextImageIndex: 40, alt: "Tastatir" },
-            { coords: [1200, 583, 1917, 675], nextImageIndex: 40, alt: "Bluetooth" },
-            { coords: [1200, 683, 1917, 775], nextImageIndex: 40, alt: "Lyd" },
-            { coords: [1200, 783, 1917, 875], nextImageIndex: 40, alt: "Volum" },
-            { coords: [1200, 883, 1917, 975], nextImageIndex: 40, alt: "Lagring" },
-            { coords: [1200, 983, 1917, 1075], nextImageIndex: 40, alt: "Google Assistant" },
+          { coords: [1200, 163, 1870, 240], nextImageIndex: 54, alt: "Google Cast" },
+          { coords: [1200, 263, 1870, 340], nextImageIndex: 56, alt: "HDMI" },
+          { coords: [1200, 363, 1870, 440], nextImageIndex: 58, alt: "Skjerm" },
+          { coords: [1200, 463, 1870, 540], nextImageIndex: 61, alt: "Skjermsparer" },
+          { coords: [1200, 563, 1870, 640], nextImageIndex: 65, alt: "Posisjon" },
+          { coords: [1200, 663, 1870, 720], nextImageIndex: 66, alt: "Bruk og Diagnostikk" },
+          { coords: [1200, 743, 1870, 800], nextImageIndex: 67, alt: "Tilgjengelighet" },
+          { coords: [1200, 843, 1870, 920], nextImageIndex: 71, alt: "Start på nytt" },
+          { coords: [1200, 943, 1870, 1020], nextImageIndex: 72, alt: "Tilbakestilling" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/info.jpg",
+        alt: "#42 info",
+        areas: [
+          //{ coords: [1200, 186, 1870, 278], nextImageIndex: 40, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/dato_og_kl.jpg",
+        alt: "#43 dato og klokkelsett",
+        areas: [
+          //{ coords: [1200, 186, 1870, 278], nextImageIndex: 40, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/sprak.jpg",
+        alt: "#44 spåk",
+        areas: [
+          //{ coords: [1200, 186, 1870, 278], nextImageIndex: 40, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/tastatur.jpg",
+        alt: "#45 Tastatur",
+        areas: [
+          //{ coords: [1200, 186, 1870, 278], nextImageIndex: 40, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/bluetooth.jpg",
+        alt: "#46 Bluetooth",
+        areas: [
+          //{ coords: [1200, 186, 1870, 278], nextImageIndex: 40, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/lyd.jpg",
+        alt: "#47 Lyd",
+        areas: [
+          { coords: [1200, 186, 1870, 278], nextImageIndex: 48, alt: "" },
+          { coords: [1200, 386, 1870, 478], nextImageIndex: 49, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/lyd2.jpg",
+        alt: "#48 Lyd2",
+        areas: [
+          { coords: [1200, 186, 1870, 278], nextImageIndex: 47, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/formater.jpg",
+        alt: "#49 formater",
+        areas: [
+          { coords: [1200, 186, 1870, 278], nextImageIndex: 47, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/volume.jpg",
+        alt: "#50 formater",
+        areas: [
+         // { coords: [1200, 186, 1870, 278], nextImageIndex: 47, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/lagring.jpg",
+        alt: "#51 lagring",
+        areas: [
+         { coords: [1200, 286, 1870, 378], nextImageIndex: 52, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/deltlagring.jpg",
+        alt: "#52 deltlagring",
+        areas: [
+         // { coords: [1200, 186, 1870, 278], nextImageIndex: 47, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/google_assistent.jpg",
+        alt: "#53 google_assistent",
+        areas: [
+          //{ coords: [1200, 186, 1870, 278], nextImageIndex: 47, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/google_cast.jpg",
+        alt: "#54 google_cast",
+        areas: [
+          { coords: [1200, 296, 1870, 398], nextImageIndex: 55, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/google_cast_settings.jpg",
+        alt: "#55 google_cast_settings",
+        areas: [
+          //{ coords: [1200, 186, 1870, 278], nextImageIndex: 47, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/hdmi.jpg",
+        alt: "#56 hdmi",
+        areas: [
+          { coords: [1200, 186, 1870, 278], nextImageIndex: 57, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/hdmi2.jpg",
+        alt: "#57 hdmi2",
+        areas: [
+          { coords: [1200, 186, 1870, 278], nextImageIndex: 56, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/skjerm.jpg",
+        alt: "#58 skjerm",
+        areas: [
+          { coords: [1200, 186, 1870, 278], nextImageIndex: 59, alt: "" },
+          { coords: [1200, 286, 1870, 378], nextImageIndex: 60, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/opplosning.jpg",
+        alt: "#59 skjerm",
+        areas: [
+          //{ coords: [1200, 186, 1870, 278], nextImageIndex: 56, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/overskanning.jpg",
+        alt: "#60 overskanning",
+        areas: [
+          //{ coords: [1200, 186, 1870, 278], nextImageIndex: 59, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/skjermsparer.jpg",
+        alt: "#61 skjermsparer",
+        areas: [
+          { coords: [1200, 200, 1870, 280], nextImageIndex: 62, alt: "" },
+          { coords: [1200, 320, 1870, 410], nextImageIndex: 63, alt: "" },
+          { coords: [1200, 460, 1870, 530], nextImageIndex: 64, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/skjermsparer2.jpg",
+        alt: "#62 skjermsparer2",
+        areas: [
+          //{ coords: [1200, 186, 1870, 278], nextImageIndex: 59, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/starttidspunkt.jpg",
+        alt: "#63 starttidspunkt",
+        areas: [
+          //{ coords: [1200, 186, 1870, 278], nextImageIndex: 59, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/hvilemodus.jpg",
+        alt: "#64 hvilemodus",
+        areas: [
+          //{ coords: [1200, 186, 1870, 278], nextImageIndex: 59, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/posisjon.jpg",
+        alt: "#65 posisjon",
+        areas: [
+          //{ coords: [1200, 186, 1870, 278], nextImageIndex: 59, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/bruk_og_diagnostikk.jpg",
+        alt: "#66 bruk_og_diagnostikk",
+        areas: [
+          //{ coords: [1200, 186, 1870, 278], nextImageIndex: 59, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/tilgjengelighet.jpg",
+        alt: "#67 tilgjengelighet",
+        areas: [
+          { coords: [1200, 186, 1870, 278], nextImageIndex: 68, alt: "" },
+          { coords: [1200, 420, 1870, 500], nextImageIndex: 69, alt: "" },
+          { coords: [1200, 520, 1870, 600], nextImageIndex: 70, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/teksting.jpg",
+        alt: "#68 teksting",
+        areas: [
+          
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/teksts_til_tale.jpg",
+        alt: "#69 teksts_til_tale",
+        areas: [
+          
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/tilgjengelighetsnarvei.jpg",
+        alt: "#70 tilgjengelighetsnarvei",
+        areas: [
+          
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/start_pa_nytt.jpg",
+        alt: "#71 startpanytt",
+        areas: [
+          
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/reset.jpg",
+        alt: "#72 reset",
+        areas: [
+          
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger/fjernkontroll_og_tilbehor.jpg",
+        alt: "#73 fjernkontroll_og_tilbehor",
+        areas: [
+          
         ],
         originalWidth: 1920,
         originalHeight: 1080,
