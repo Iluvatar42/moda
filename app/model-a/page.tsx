@@ -933,8 +933,8 @@ const DynamicImageMap = () => {
             onClick={handleBackClick}
             style={{
               position: "absolute",
-              top: "10px",
-              right: "10px",
+              top: "1%",
+              right: "2%",
               padding: "10px 20px",
               fontSize: "20px",
               backgroundColor: "rgba(255, 0, 0, 0.6)",
@@ -954,8 +954,8 @@ const DynamicImageMap = () => {
             onClick={handleHomeClick}
             style={{
               position: "absolute",
-              top: "10px",
-              right: "530px",
+              top: "1%",
+              right: "31%",
               padding: "10px 20px",
               fontSize: "20px",
               backgroundColor: "rgba(0, 0, 255, 0.6)",
