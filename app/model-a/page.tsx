@@ -957,7 +957,7 @@ const DynamicImageMap = () => {
 
   return (
     <div>
-      <h1>Dynamic Image Map</h1>
+      <h1>Modell A - Menyer</h1>
       <div style={{ position: "relative", display: "inline-block" }}>
       <img
         id="responsive-image"
