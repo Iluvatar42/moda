@@ -421,6 +421,7 @@ const DynamicImageMap = () => {
           { coords: [1200, 594, 1660, 650], nextImageIndex: 37, alt: "App tillatelser" },
           { coords: [1200, 694, 1660, 759], nextImageIndex: 38, alt: "Spesiell apptilgang" },
           { coords: [1200, 794, 1660, 859], nextImageIndex: 39, alt: "Sikkerhet og begrensninger" },
+          
         ],
         originalWidth: 1920,
         originalHeight: 1080,
@@ -430,6 +431,7 @@ const DynamicImageMap = () => {
         src: "/bilder/enhetsinnstillinger/alle_apper.jpg",
         alt: "#36 alle_apper",
         areas: [
+          { coords: [1200, 263, 1721, 1080], nextImageIndex: 76, alt: "Sikkerhet og begrensninger" },
         ],
         originalWidth: 1920,
         originalHeight: 1080,
@@ -809,7 +811,7 @@ const DynamicImageMap = () => {
         src: "/bilder/enhetsinnstillinger2/reset.jpg",
         alt: "#72 reset",
         areas: [
-          
+          { coords: [1200, 484, 1654, 571], nextImageIndex: 74, alt: "" },
         ],
         originalWidth: 1920,
         originalHeight: 1080,
@@ -824,6 +826,47 @@ const DynamicImageMap = () => {
         originalWidth: 1920,
         originalHeight: 1080,
       },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/reset2.jpg",
+        alt: "#74 reset2",
+        areas: [
+          { coords: [1200, 384, 1654, 471], nextImageIndex: 75, alt: "" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger2/reset3.jpg",
+        alt: "#75 reset2",
+        areas: [
+          { coords: [0, 0, 1920, 1080], nextImageIndex: 5, alt: "booter" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger/app_detalj1.jpg",
+        alt: "#76 app_detalj1",
+        areas: [
+          { coords: [0, 0, 1920, 1080], nextImageIndex: 5, alt: "booter" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/enhetsinnstillinger/app_detalj2.jpg",
+        alt: "#77 app_detalj2",
+        areas: [
+          { coords: [0, 0, 1920, 1080], nextImageIndex: 5, alt: "booter" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
 
   ];
 
@@ -849,6 +892,16 @@ const DynamicImageMap = () => {
   const uparrowEnhet = () => {
     setHistory((prevHistory) => [...prevHistory, currentImageIndex]);
     setCurrentImageIndex(40);
+  };
+
+  const downarrowApper = () => {
+    setHistory((prevHistory) => [...prevHistory, currentImageIndex]);
+    setCurrentImageIndex(77);
+  };
+  
+  const uparrowApper = () => {
+    setHistory((prevHistory) => [...prevHistory, currentImageIndex]);
+    setCurrentImageIndex(76);
   };
 
 
@@ -1025,6 +1078,40 @@ const DynamicImageMap = () => {
     src="/bilder/arrows/upArrow.png" 
     alt="Scroll up"
     onClick={uparrowEnhet}
+    style={{
+      position: "absolute",
+      top: "480px",
+      right: "750px",
+      width: "50px",
+      height: "50px",
+      cursor: "pointer",
+      zIndex: 10,
+    }}
+  />
+)}
+
+{[76, 77].includes(currentImageIndex) &&(
+  <img
+    src="/bilder/arrows/downArrow.png" 
+    alt="Scroll down"
+    onClick={downarrowApper}
+    style={{
+      position: "absolute",
+      top: "550px",
+      right: "750px",
+      width: "50px",
+      height: "50px",
+      cursor: "pointer",
+      zIndex: 10,
+    }}
+  />
+)}
+
+{[76, 77].includes(currentImageIndex) && (
+  <img
+    src="/bilder/arrows/upArrow.png" 
+    alt="Scroll up"
+    onClick={uparrowApper}
     style={{
       position: "absolute",
       top: "480px",
