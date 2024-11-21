@@ -867,6 +867,206 @@ const DynamicImageMap = () => {
         originalHeight: 1080,
       },
 
+      {
+        src: "/bilder/venstre_meny/hjem.jpg",
+        alt: "#78 Venstry meny",
+        areas: [
+          { coords: [46, 255, 496, 340], nextImageIndex: 0, alt: "Hjem" },
+          { coords: [46, 350, 496, 420], nextImageIndex: 79, alt: "Se TV" },
+          { coords: [46, 430, 496, 500], nextImageIndex: 80, alt: "Tv-guide" },
+          { coords: [46, 515, 496, 590], nextImageIndex: 81, alt: "Program og Serier" },
+          { coords: [46, 600, 496, 670], nextImageIndex: 82, alt: "Filmer" },
+          { coords: [46, 680, 496, 750], nextImageIndex: 83, alt: "Mine opptak" },
+          { coords: [46, 760, 496, 820], nextImageIndex: 84, alt: "Gaming" },
+          { coords: [46, 830, 496, 900], nextImageIndex: 85, alt: "Barn" },
+          { coords: [46, 910, 496, 1000], nextImageIndex: 86, alt: "Apper" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/venstre_meny/live_tv.jpg",
+        alt: "#79 live_tv",
+        areas: [
+          //{ coords: [46, 255, 496, 350], nextImageIndex: 79, alt: "booter" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/venstre_meny/tv_guide.jpg",
+        alt: "#80 tv_guide",
+        areas: [
+          // { coords: [46, 255, 496, 350], nextImageIndex: 79, alt: "booter" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/venstre_meny/program_og_serier.jpg",
+        alt: "#81 program_og_serier",
+        areas: [
+          // { coords: [46, 255, 496, 350], nextImageIndex: 79, alt: "booter" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/venstre_meny/filmer.jpg",
+        alt: "#82 filmer",
+        areas: [
+          // { coords: [46, 255, 496, 350], nextImageIndex: 79, alt: "booter" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/venstre_meny/opptak.jpg",
+        alt: "#83 opptak",
+        areas: [
+          // { coords: [46, 255, 496, 350], nextImageIndex: 79, alt: "booter" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/venstre_meny/gaming.jpg",
+        alt: "#84 gaming",
+        areas: [
+          // { coords: [46, 255, 496, 350], nextImageIndex: 79, alt: "booter" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/venstre_meny/barn.jpg",
+        alt: "#85 barn",
+        areas: [
+          // { coords: [46, 255, 496, 350], nextImageIndex: 79, alt: "booter" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/venstre_meny/apper.jpg",
+        alt: "#86 apper",
+        areas: [
+          { coords: [1592, 535, 1846, 673], nextImageIndex: 87, alt: "showtime" },
+          { coords: [212, 535, 466, 673], nextImageIndex: 88, alt: "NRK" },
+          { coords: [763, 528, 1017, 673], nextImageIndex: 91, alt: "x" },
+          { coords: [1040, 531, 1295, 675], nextImageIndex: 92, alt: "max" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/venstre_meny/showtime.jpg",
+        alt: "#87 showtime",
+        areas: [
+          // { coords: [1492, 535, 1846, 673], nextImageIndex: 87, alt: "showtime" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/venstre_meny/nrk.jpg",
+        alt: "#88 nrk",
+        areas: [
+          { coords: [0, 0, 1920, 1080], nextImageIndex: 89, alt: "showtime" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/venstre_meny/nrk2.jpg",
+        alt: "#89 nrk2",
+        areas: [
+          { coords: [0, 0, 1920, 1080], nextImageIndex: 90, alt: "showtime" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/venstre_meny/nrk3.jpg",
+        alt: "#90 nrk3",
+        areas: [
+          // { coords: [0, 0, 1920, 1080], nextImageIndex: 89, alt: "showtime" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/venstre_meny/altiboxx.jpg",
+        alt: "#91 altiboxx",
+        areas: [
+          // { coords: [0, 0, 1920, 1080], nextImageIndex: 89, alt: "showtime" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/venstre_meny/max.jpg",
+        alt: "#92 max",
+        areas: [
+          { coords: [0, 0, 1920, 1080], nextImageIndex: 93, alt: "max" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+
+      {
+        src: "/bilder/venstre_meny/max2.jpg",
+        alt: "#93 max2",
+        areas: [
+          // { coords: [0, 0, 1920, 1080], nextImageIndex: 94, alt: "max" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+
+      {
+        src: "/bilder/venstre_meny/max3.jpg",
+        alt: "#94 max3",
+        areas: [
+          { coords: [0, 0, 1920, 1080], nextImageIndex: 93, alt: "max" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+
 
   ];
 
@@ -953,6 +1153,12 @@ const DynamicImageMap = () => {
     setCurrentImageIndex(0);
   };
 
+  const handleMenuClick = () => {
+    // Clear history and navigate to the first image
+    setHistory([]);
+    setCurrentImageIndex(78);
+  };
+
   const currentImage = imageMapData[currentImageIndex];
 
   return (
@@ -967,6 +1173,43 @@ const DynamicImageMap = () => {
         className="responsive-image"
         style={{ width: "100%", height: "auto" }}
       />
+
+       {/* Highlights for clickable areas */}
+
+      {/* {currentImage.areas.map((area, areaIndex) => {
+      const [x1, y1, x2, y2] = calculateResponsiveCoords(area.coords);
+      const width = x2 - x1;
+      const height = y2 - y1;
+
+      return (
+        <div
+          key={areaIndex}
+          style={{
+            position: "absolute",
+            top: `${y1}px`,
+            left: `${x1}px`,
+            width: `${width}px`,
+            height: `${height}px`,
+            border: "2px solid rgba(255, 0, 0, 0.8)",
+            backgroundColor: "rgba(255, 0, 0, 0.2)",
+            cursor: "pointer",
+            zIndex: 5,
+          }}
+          onClick={
+            "nextImageIndex" in area
+              ? () => handleAreaClick(area.nextImageIndex)
+              : undefined
+          }
+          onMouseEnter={() =>
+            console.log(`Hovering over area: ${area.alt}`)
+          }
+          onMouseLeave={() =>
+            console.log(`Stopped hovering over area: ${area.alt}`)
+          }
+        />
+      );
+    })}  */}
+
       <map name="image-map">
         {currentImage.areas.map((area, areaIndex) => (
           <area
@@ -1020,6 +1263,28 @@ const DynamicImageMap = () => {
             }}
           >
             Hjem
+          </button>
+        )}
+
+                        {/* Meny Button */}
+                        {currentImageIndex == 0 && (
+          <button
+            onClick={handleMenuClick}
+            style={{
+              position: "absolute",
+              top: "15%",
+              left: "1%",
+              padding: "10px 20px",
+              fontSize: "20px",
+              backgroundColor: "rgba(0, 0, 255, 0.6)",
+              color: "white",
+              border: "none",
+              borderRadius: "5px",
+              cursor: "pointer",
+              zIndex: 10,
+            }}
+          >
+            Sidemeny
           </button>
         )}
 {[31, 32].includes(currentImageIndex) &&(

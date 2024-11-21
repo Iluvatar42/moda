@@ -642,6 +642,28 @@ const DynamicImageMap = () => {
           >
             Hjem
           </button>
+                  )}
+                  
+                  {/* Meny Button */}
+                  {currentImageIndex == 0 && (
+            <button
+              onClick={handleHomeClick}
+              style={{
+                position: "absolute",
+                top: "10px",
+                left: "10px",
+                padding: "10px 20px",
+                fontSize: "20px",
+                backgroundColor: "rgba(0, 0, 0, 0.6)",
+                color: "white",
+                border: "none",
+                borderRadius: "5px",
+                cursor: "pointer",
+                zIndex: 10,
+              }}
+            >
+              Side meny
+            </button>
         )}
 {[31, 32].includes(currentImageIndex) &&(
   <img
