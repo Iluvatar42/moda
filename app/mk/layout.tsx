@@ -8,11 +8,11 @@ export const metadata = {
 
 export default function ModelALayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+
       <body>
         <Sidebar />
         <main className="main-content">{children}</main>
       </body>
-    </html>
+
   );
 }

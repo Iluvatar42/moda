@@ -1,6 +1,6 @@
 
 
-import { useState, useEffect } from "react";
+
 
 export const metadata = {
   title: "MK Page",

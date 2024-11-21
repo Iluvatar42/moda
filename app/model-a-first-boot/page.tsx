@@ -2,13 +2,13 @@
 
 import { useState, useEffect } from "react";
 
-type Area = {
-  coords: number[];
-  alt: string;
-} & (
-  | { nextImageIndex: number } // Internal navigation
-  | { href: string } // External link
-);
+//type Area = {
+  //coords: number[];
+ // alt: string;
+//} & (
+//  | { nextImageIndex: number }
+//  | { href: string }
+//);
 
 const DynamicImageMap = () => {
   const imageMapData = [
