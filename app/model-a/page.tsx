@@ -9,6 +9,10 @@ const DynamicImageMap = () => {
       alt: "#1 Hjem ",
       areas: [
         { coords: [1410, 49, 1497, 138], nextImageIndex: 1, alt: "Innstillinger" },
+        { coords: [1040, 232, 1160, 377], nextImageIndex: 95, alt: "Opptak" },
+        { coords: [1042, 533, 1151, 671], nextImageIndex: 100, alt: "Radio" },
+        { coords: [1042, 381, 1151, 519], nextImageIndex: 98, alt: "tv guide" },
+        { coords: [209, 222, 1019, 686], nextImageIndex: 101, alt: "Live-TV" },
       ],
       originalWidth: 1920,
       originalHeight: 1080,
@@ -85,9 +89,9 @@ const DynamicImageMap = () => {
         src: "/bilder/kanaler/favoritt-kanaler.jpg",
         alt: "#7 favoritt-kanaler",
         areas: [
-          { coords: [1232, 160, 1592, 250], nextImageIndex: 6, alt: "Favoritt kanaler" },
-          { coords: [1232, 260, 1592, 350], nextImageIndex: 6, alt: "Sorter kanaler" },
-          { coords: [1232, 360, 1592, 450], nextImageIndex: 6, alt: "Skjul kanaler" },
+          // { coords: [1232, 160, 1592, 250], nextImageIndex: 6, alt: "Favoritt kanaler" },
+          // { coords: [1232, 260, 1592, 350], nextImageIndex: 6, alt: "Sorter kanaler" },
+          // { coords: [1232, 360, 1592, 450], nextImageIndex: 6, alt: "Skjul kanaler" },
 
         ],
         originalWidth: 1920,
@@ -97,9 +101,9 @@ const DynamicImageMap = () => {
         src: "/bilder/kanaler/sorter-kanaler.jpg",
         alt: "#8 sorter-kanaler",
         areas: [
-          { coords: [1232, 160, 1592, 250], nextImageIndex: 6, alt: "Tilbake" },
-          { coords: [1232, 260, 1592, 350], nextImageIndex: 6, alt: "Tilbake" },
-          { coords: [1232, 360, 1592, 450], nextImageIndex: 6, alt: "Tilbake" },
+          // { coords: [1232, 160, 1592, 250], nextImageIndex: 6, alt: "Tilbake" },
+          // { coords: [1232, 260, 1592, 350], nextImageIndex: 6, alt: "Tilbake" },
+          // { coords: [1232, 360, 1592, 450], nextImageIndex: 6, alt: "Tilbake" },
 
         ],
         originalWidth: 1920,
@@ -146,10 +150,10 @@ const DynamicImageMap = () => {
         src: "/bilder/sprak/sprak.jpg",
         alt: "#12 Språk",
         areas: [
-          { coords: [1232, 160, 1592, 250], nextImageIndex: 11, alt: "tilbake" },
-          { coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
-          { coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
-          { coords: [1232, 460, 1592, 550], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 160, 1592, 250], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 460, 1592, 550], nextImageIndex: 11, alt: "tilbake" },
 
         ],
         originalWidth: 1920,
@@ -160,10 +164,10 @@ const DynamicImageMap = () => {
         src: "/bilder/sprak/faretrukketsprak.jpg",
         alt: "#13 foretrukket språk",
         areas: [
-          { coords: [1232, 160, 1592, 250], nextImageIndex: 11, alt: "tilbake" },
-          { coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
-          { coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
-          { coords: [1232, 460, 1592, 550], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 160, 1592, 250], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 460, 1592, 550], nextImageIndex: 11, alt: "tilbake" },
 
         ],
         originalWidth: 1920,
@@ -174,10 +178,10 @@ const DynamicImageMap = () => {
         src: "/bilder/sprak/undertekstsprak.jpg",
         alt: "#14 undertekst språk",
         areas: [
-          { coords: [1232, 160, 1592, 250], nextImageIndex: 11, alt: "tilbake" },
-          { coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
-          { coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
-          { coords: [1232, 460, 1592, 550], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 160, 1592, 250], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 460, 1592, 550], nextImageIndex: 11, alt: "tilbake" },
 
         ],
         originalWidth: 1920,
@@ -188,10 +192,10 @@ const DynamicImageMap = () => {
         src: "/bilder/sprak/undertekster.jpg",
         alt: "#15 undertekster",
         areas: [
-          { coords: [1232, 160, 1592, 250], nextImageIndex: 11, alt: "tilbake" },
-          { coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
-          { coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
-          { coords: [1232, 460, 1592, 550], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 160, 1592, 250], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 260, 1592, 350], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 360, 1592, 450], nextImageIndex: 11, alt: "tilbake" },
+          // { coords: [1232, 460, 1592, 550], nextImageIndex: 11, alt: "tilbake" },
 
         ],
         originalWidth: 1920,
@@ -1066,6 +1070,189 @@ const DynamicImageMap = () => {
         originalHeight: 1080,
       },
 
+      
+      {
+        src: "/bilder/opptak/opptak.jpg",
+        alt: "#95 opptak",
+        areas: [
+           { coords: [693, 58, 950, 127], nextImageIndex: 96, alt: "max" },
+           { coords: [958, 58, 1160, 127], nextImageIndex: 97, alt: "max" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/opptak/planlagt_opptak.jpg",
+        alt: "#96 Planlagt Opptak",
+        areas: [
+          //  { coords: [693, 58, 950, 127], nextImageIndex: 96, alt: "max" },
+          //  { coords: [958, 58, 950, 127], nextImageIndex: 97, alt: "max" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/opptak/slett_opptak.jpg",
+        alt: "#97 slett opptak",
+        areas: [
+          //  { coords: [693, 58, 950, 127], nextImageIndex: 96, alt: "max" },
+          //  { coords: [958, 58, 950, 127], nextImageIndex: 97, alt: "max" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/tv-guide/tv_guide.jpg",
+        alt: "#98 tv_guide",
+        areas: [
+           { coords: [765, 315, 1474, 419], nextImageIndex: 99, alt: "Program detaljer." },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/tv-guide/program_detaljer.jpg",
+        alt: "#99 program_detaljer",
+        areas: [
+          //  { coords: [765, 315, 1474, 419], nextImageIndex: 96, alt: "Program detaljer." },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/radio/radio.jpg",
+        alt: "#100 radio",
+        areas: [
+          //  { coords: [765, 315, 1474, 419], nextImageIndex: 96, alt: "Program detaljer." },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/live-tv/live_tv.jpg",
+        alt: "#101 live tv",
+        areas: [
+          { coords: [1188, 874, 1300, 1001], nextImageIndex: 102, alt: "tv-guide." },
+          { coords: [1315, 879, 1450, 1006], nextImageIndex: 103, alt: "Se fra start" },
+          { coords: [1457, 873, 1580, 1000], nextImageIndex: 104, alt: "Episoder" },
+          { coords: [1605, 876, 1713, 1003], nextImageIndex: 105, alt: "Info" },
+          { coords: [1731, 875, 1866, 1002], nextImageIndex: 106, alt: "Språk og tekst" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+
+      {
+        src: "/bilder/live-tv/tv-guide.jpg",
+        alt: "#102 Tv-Guide",
+        areas: [
+          //  { coords: [765, 315, 1474, 419], nextImageIndex: 96, alt: "Program detaljer." },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/live-tv/se_start.jpg",
+        alt: "#103 Se fra start",
+        areas: [
+          { coords: [1188, 874, 1300, 1001], nextImageIndex: 102, alt: "tv-guide." },
+          { coords: [1315, 879, 1450, 1006], nextImageIndex: 101, alt: "direkte tv" },
+          { coords: [1457, 873, 1580, 1000], nextImageIndex: 104, alt: "Episoder" },
+          { coords: [1605, 876, 1713, 1003], nextImageIndex: 105, alt: "Info" },
+          { coords: [1731, 875, 1866, 1002], nextImageIndex: 106, alt: "Språk og tekst" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+
+
+      {
+        src: "/bilder/live-tv/episoder.jpg",
+        alt: "#104 episoder",
+        areas: [
+          { coords: [1031, 449, 1775, 589], nextImageIndex: 101, alt: "Program detaljer." },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/live-tv/program_info.jpg",
+        alt: "#105 info",
+        areas: [
+          { coords: [1047, 522, 1297, 671], nextImageIndex: 103, alt: "" },
+          { coords: [1544, 524, 1794, 673], nextImageIndex: 104, alt: "" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      {
+        src: "/bilder/live-tv/sprak.jpg",
+        alt: "#106 språk og undertekst",
+        areas: [
+          { coords: [1353, 774, 1866, 848], nextImageIndex: 107, alt: "Undertekster" },
+          { coords: [1355, 855, 1864, 918], nextImageIndex: 108, alt: "lydsprak" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+
+      {
+        src: "/bilder/live-tv/undertekster.jpg",
+        alt: "#107 undertekst",
+        areas: [
+          // { coords: [1047, 522, 1297, 671], nextImageIndex: 103, alt: "Se fra start" },
+          // { coords: [1544, 524, 1794, 673], nextImageIndex: 104, alt: "" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+
+      
+      {
+        src: "/bilder/live-tv/lydsprak.jpg",
+        alt: "#108 lydsprak",
+        areas: [
+          // { coords: [1047, 522, 1297, 671], nextImageIndex: 103, alt: "Se fra start" },
+          // { coords: [1544, 524, 1794, 673], nextImageIndex: 104, alt: "" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
+
+      
+
+
+
+      
+
+
 
 
   ];
@@ -1161,6 +1348,10 @@ const DynamicImageMap = () => {
 
   const currentImage = imageMapData[currentImageIndex];
 
+  //Highlights constant
+  const [showHighlights, setShowHighlights] = useState(false);
+
+
   return (
     <div>
       <h1>Modell A - Menyer</h1>
@@ -1176,7 +1367,7 @@ const DynamicImageMap = () => {
 
        {/* Highlights for clickable areas */}
 
-      {/* {currentImage.areas.map((area, areaIndex) => {
+      {showHighlights && currentImage.areas.map((area, areaIndex) => {
       const [x1, y1, x2, y2] = calculateResponsiveCoords(area.coords);
       const width = x2 - x1;
       const height = y2 - y1;
@@ -1208,7 +1399,7 @@ const DynamicImageMap = () => {
           }
         />
       );
-    })}  */}
+    })} 
 
       <map name="image-map">
         {currentImage.areas.map((area, areaIndex) => (
@@ -1388,6 +1579,21 @@ const DynamicImageMap = () => {
     }}
   />
 )}
+<button
+  onClick={() => setShowHighlights((prev) => !prev)}
+  style={{
+    position: "absolute",
+    top: "10px",
+    left: "10px",
+    backgroundColor: showHighlights
+      ? "rgba(255, 0, 0, 0.6)"
+      : "rgba(0, 255, 0, 0.6)",
+    // Additional styles
+  }}
+>
+  {showHighlights ? "Hide Highlights" : "Show Highlights"}
+</button>
+
 
       </div>
     </div>
