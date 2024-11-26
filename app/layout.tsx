@@ -13,6 +13,19 @@ export const metadata = {
     <meta property="og:title" content="Model A" />
     <meta property="og:description" content="Modell A - Menyer" />
     <meta property="og:url" content="http:\\moda.langdalen.org" />
+
+            {/* Google Analytics */}
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-NZ63TVZKFW"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-NZ63TVZKFW');
+            `,
+          }}
+        ></script>
     
   </head>
 
