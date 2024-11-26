@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 
+
 const DynamicImageMap = () => {
   const imageMapData = [
     {
@@ -113,7 +114,7 @@ const DynamicImageMap = () => {
         src: "/bilder/kanaler/skjul-tv-kanaler.jpg",
         alt: "#9 skjul-tv-kanaler, pin skjerm",
         areas: [
-          { coords: [684, 606, 1240, 695], nextImageIndex: 10, alt: "Pin" },
+          { coords: [684, 456, 1240, 575], nextImageIndex: 10, alt: "Pin" },
           { coords: [684, 695, 1240, 770], nextImageIndex: 6, alt: "Avbryt" },
 
 
@@ -218,7 +219,7 @@ const DynamicImageMap = () => {
         src: "/bilder/Film_og_serier/foreldrekontroll1.jpg",
         alt: "#17 Foreldre kontroll pin",
         areas: [
-            { coords: [684, 606, 1240, 695], nextImageIndex: 18, alt: "Pin" },
+            { coords: [684, 456, 1240, 575], nextImageIndex: 18, alt: "Pin" },
             { coords: [684, 695, 1240, 770], nextImageIndex: 16, alt: "Avbryt" },
         ],
         originalWidth: 1920,
@@ -345,7 +346,7 @@ const DynamicImageMap = () => {
         src: "/bilder/Avanserte_innstillinger/debug.jpg",
         alt: "#28 debug",
         areas: [
-          //{ coords: [1209, 306, 1910, 402], nextImageIndex: 22, alt: "Tidsbuffer før" },
+          { coords: [1209, 306, 1910, 402], nextImageIndex: 109, alt: "Utvidet Logging" },
           { coords: [1209, 406, 1910, 502], nextImageIndex: 29, alt: "stats på" },
         ],
         originalWidth: 1920,
@@ -356,7 +357,7 @@ const DynamicImageMap = () => {
         src: "/bilder/Avanserte_innstillinger/statspa.jpg",
         alt: "#29 debug stats på",
         areas: [
-          //{ coords: [1209, 306, 1910, 402], nextImageIndex: 22, alt: "Tidsbuffer før" },
+          { coords: [1209, 306, 1910, 402], nextImageIndex: 109, alt: "Utvidet Logging" },
           { coords: [1209, 406, 1910, 502], nextImageIndex: 28, alt: "stats av" },
         ],
         originalWidth: 1920,
@@ -661,7 +662,7 @@ const DynamicImageMap = () => {
         src: "/bilder/enhetsinnstillinger2/hdmi2.jpg",
         alt: "#57 hdmi2",
         areas: [
-          { coords: [1200, 186, 1870, 278], nextImageIndex: 56, alt: "" },
+          { coords: [1200, 186, 1920, 378], nextImageIndex: 56, alt: "" },
         ],
         originalWidth: 1920,
         originalHeight: 1080,
@@ -806,7 +807,7 @@ const DynamicImageMap = () => {
         src: "/bilder/enhetsinnstillinger2/start_pa_nytt.jpg",
         alt: "#71 startpanytt",
         areas: [
-          
+          { coords: [1183, 260, 1920, 361], nextImageIndex: 5, alt: "" },
         ],
         originalWidth: 1920,
         originalHeight: 1080,
@@ -877,11 +878,11 @@ const DynamicImageMap = () => {
         alt: "#78 Venstry meny",
         areas: [
           { coords: [46, 255, 496, 340], nextImageIndex: 0, alt: "Hjem" },
-          { coords: [46, 350, 496, 420], nextImageIndex: 79, alt: "Se TV" },
+          { coords: [46, 350, 496, 420], nextImageIndex: 101, alt: "Se TV" },
           { coords: [46, 430, 496, 500], nextImageIndex: 80, alt: "Tv-guide" },
           { coords: [46, 515, 496, 590], nextImageIndex: 81, alt: "Program og Serier" },
           { coords: [46, 600, 496, 670], nextImageIndex: 82, alt: "Filmer" },
-          { coords: [46, 680, 496, 750], nextImageIndex: 83, alt: "Mine opptak" },
+          { coords: [46, 680, 496, 750], nextImageIndex: 95, alt: "Mine opptak" },
           { coords: [46, 760, 496, 820], nextImageIndex: 84, alt: "Gaming" },
           { coords: [46, 830, 496, 900], nextImageIndex: 85, alt: "Barn" },
           { coords: [46, 910, 496, 1000], nextImageIndex: 86, alt: "Apper" },
@@ -1247,14 +1248,30 @@ const DynamicImageMap = () => {
         originalHeight: 1080,
       },
 
-      
+
+      {
+        src: "/bilder/Avanserte_innstillinger/utvidet_logg.jpg",
+        alt: "#109 lydsprak",
+        areas: [
+          { coords: [676, 683, 1245, 761], nextImageIndex: 110, alt: "skru på avansert" },
+          { coords: [676, 770, 1245, 848], nextImageIndex: 28, alt: "avbryt" },
+
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
 
 
-
-      
-
-
-
+      {
+        src: "/bilder/Avanserte_innstillinger/statspa_alt.jpg",
+        alt: "#111 debug",
+        areas: [
+          { coords: [1209, 306, 1910, 402], nextImageIndex: 28, alt: "Utvidet Logging" },
+          { coords: [1209, 406, 1910, 502], nextImageIndex: 29, alt: "stats på" },
+        ],
+        originalWidth: 1920,
+        originalHeight: 1080,
+      },
 
   ];
 
